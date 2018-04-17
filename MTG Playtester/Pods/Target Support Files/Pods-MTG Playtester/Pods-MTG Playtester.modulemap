@@ -1,0 +1,6 @@
+framework module Pods_MTG_Playtester {
+  umbrella header "Pods-MTG Playtester-umbrella.h"
+
+  export *
+  module * { export * }
+}

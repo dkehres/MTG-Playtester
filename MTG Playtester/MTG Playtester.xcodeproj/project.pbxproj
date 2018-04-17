@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2652EE206A9743004BD396 /* CreateDeckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2652ED206A9743004BD396 /* CreateDeckViewController.swift */; };
+		4C48ACF1204F0CDD00A055BE /* DeckBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C48ACF0204F0CDD00A055BE /* DeckBuilder.swift */; };
+		4C48ACF3204F0F3500A055BE /* MTGSDKSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C48ACEE204F0C2B00A055BE /* MTGSDKSwift.framework */; };
+		4C48ACF4204F0F3500A055BE /* MTGSDKSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C48ACEE204F0C2B00A055BE /* MTGSDKSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C7D7E41206155B00019DA78 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7D7E40206155B00019DA78 /* Deck.swift */; };
+		4C9DF4572033380600BF8C21 /* DeckEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9DF4562033380600BF8C21 /* DeckEditorViewController.swift */; };
+		4CAB5F0E20766FF300E8B951 /* Background-Temple of Mystery.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAB5F0D20766FF200E8B951 /* Background-Temple of Mystery.png */; };
+		4CE1AA1320338844000AD1B3 /* PlayMatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE1AA1220338844000AD1B3 /* PlayMatViewController.swift */; };
+		4CF11AB6202CA93100789AD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF11AB5202CA93100789AD5 /* AppDelegate.swift */; };
+		4CF11AB8202CA93100789AD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF11AB7202CA93100789AD5 /* ViewController.swift */; };
+		4CF11ABB202CA93100789AD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF11AB9202CA93100789AD5 /* Main.storyboard */; };
+		4CF11ABD202CA93100789AD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF11ABC202CA93100789AD5 /* Assets.xcassets */; };
+		4CF11AC0202CA93100789AD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF11ABE202CA93100789AD5 /* LaunchScreen.storyboard */; };
+		4CF11AC8202CAA9100789AD5 /* ViewEditDecksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF11AC7202CAA9100789AD5 /* ViewEditDecksViewController.swift */; };
+		4CF11ACA202CAC9900789AD5 /* PlaytesterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF11AC9202CAC9900789AD5 /* PlaytesterViewController.swift */; };
+		B2DDB787A0F8A9B41D166D91 /* Pods_MTG_Playtester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F02DBDFC0AC270B9DEB996 /* Pods_MTG_Playtester.framework */; };
+		C765278020476A2D000881BC /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C765277F20476A2D000881BC /* LinkedList.swift */; };
+		C7714096206D2F3200376906 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7714095206D2F3200376906 /* GoogleService-Info.plist */; };
+		C77877C42035E792003DA114 /* magic_M.png in Resources */ = {isa = PBXBuildFile; fileRef = C77877C32035E791003DA114 /* magic_M.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C48ACF5204F0F3500A055BE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4C48ACF4204F0F3500A055BE /* MTGSDKSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49721B2EADB6BE3BB46AEC1A /* Pods-MTG Playtester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTG Playtester.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTG Playtester/Pods-MTG Playtester.debug.xcconfig"; sourceTree = "<group>"; };
+		4C2652ED206A9743004BD396 /* CreateDeckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDeckViewController.swift; sourceTree = "<group>"; };
+		4C48ACEE204F0C2B00A055BE /* MTGSDKSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MTGSDKSwift.framework; path = Carthage/Build/iOS/MTGSDKSwift.framework; sourceTree = "<group>"; };
+		4C48ACF0204F0CDD00A055BE /* DeckBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckBuilder.swift; sourceTree = "<group>"; };
+		4C7D7E40206155B00019DA78 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		4C9DF4562033380600BF8C21 /* DeckEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckEditorViewController.swift; sourceTree = "<group>"; };
+		4CAB5F0D20766FF200E8B951 /* Background-Temple of Mystery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background-Temple of Mystery.png"; sourceTree = "<group>"; };
+		4CE1AA1220338844000AD1B3 /* PlayMatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMatViewController.swift; sourceTree = "<group>"; };
+		4CF11AB2202CA93100789AD5 /* MTG Playtester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MTG Playtester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF11AB5202CA93100789AD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CF11AB7202CA93100789AD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CF11ABA202CA93100789AD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CF11ABC202CA93100789AD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CF11ABF202CA93100789AD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CF11AC1202CA93100789AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF11AC7202CAA9100789AD5 /* ViewEditDecksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewEditDecksViewController.swift; sourceTree = "<group>"; };
+		4CF11AC9202CAC9900789AD5 /* PlaytesterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaytesterViewController.swift; sourceTree = "<group>"; };
+		767ACB32D49AFDC7A9FBD188 /* Pods-MTG Playtester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTG Playtester.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTG Playtester/Pods-MTG Playtester.release.xcconfig"; sourceTree = "<group>"; };
+		83F02DBDFC0AC270B9DEB996 /* Pods_MTG_Playtester.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTG_Playtester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C765277F20476A2D000881BC /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		C7714095206D2F3200376906 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C77877C32035E791003DA114 /* magic_M.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_M.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CF11AAF202CA93100789AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C48ACF3204F0F3500A055BE /* MTGSDKSwift.framework in Frameworks */,
+				B2DDB787A0F8A9B41D166D91 /* Pods_MTG_Playtester.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AB333C93CAE6E7551370557 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49721B2EADB6BE3BB46AEC1A /* Pods-MTG Playtester.debug.xcconfig */,
+				767ACB32D49AFDC7A9FBD188 /* Pods-MTG Playtester.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C48ACF2204F0EF400A055BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83F02DBDFC0AC270B9DEB996 /* Pods_MTG_Playtester.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CF11AA9202CA93100789AD5 = {
+			isa = PBXGroup;
+			children = (
+				4C48ACEE204F0C2B00A055BE /* MTGSDKSwift.framework */,
+				C77877C32035E791003DA114 /* magic_M.png */,
+				4CAB5F0D20766FF200E8B951 /* Background-Temple of Mystery.png */,
+				4CE1AA1220338844000AD1B3 /* PlayMatViewController.swift */,
+				4CF11AB4202CA93100789AD5 /* MTG Playtester */,
+				4CF11AB3202CA93100789AD5 /* Products */,
+				4C48ACF2204F0EF400A055BE /* Frameworks */,
+				1AB333C93CAE6E7551370557 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4CF11AB3202CA93100789AD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF11AB2202CA93100789AD5 /* MTG Playtester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF11AB4202CA93100789AD5 /* MTG Playtester */ = {
+			isa = PBXGroup;
+			children = (
+				4CF11AB5202CA93100789AD5 /* AppDelegate.swift */,
+				4CF11AB7202CA93100789AD5 /* ViewController.swift */,
+				4CF11AC7202CAA9100789AD5 /* ViewEditDecksViewController.swift */,
+				4CF11AC9202CAC9900789AD5 /* PlaytesterViewController.swift */,
+				4C9DF4562033380600BF8C21 /* DeckEditorViewController.swift */,
+				4CF11AB9202CA93100789AD5 /* Main.storyboard */,
+				4C2652ED206A9743004BD396 /* CreateDeckViewController.swift */,
+				4CF11ABC202CA93100789AD5 /* Assets.xcassets */,
+				4CF11ABE202CA93100789AD5 /* LaunchScreen.storyboard */,
+				C765277F20476A2D000881BC /* LinkedList.swift */,
+				C7714095206D2F3200376906 /* GoogleService-Info.plist */,
+				4C48ACF0204F0CDD00A055BE /* DeckBuilder.swift */,
+				4C7D7E40206155B00019DA78 /* Deck.swift */,
+				4CF11AC1202CA93100789AD5 /* Info.plist */,
+			);
+			path = "MTG Playtester";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CF11AB1202CA93100789AD5 /* MTG Playtester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF11AC4202CA93100789AD5 /* Build configuration list for PBXNativeTarget "MTG Playtester" */;
+			buildPhases = (
+				4439F459F57CA70B3A4D376A /* [CP] Check Pods Manifest.lock */,
+				4CF11AAE202CA93100789AD5 /* Sources */,
+				4CF11AAF202CA93100789AD5 /* Frameworks */,
+				4CF11AB0202CA93100789AD5 /* Resources */,
+				4C48ACF5204F0F3500A055BE /* Embed Frameworks */,
+				131EA78485B7D77273A7CDA5 /* [CP] Embed Pods Frameworks */,
+				10873D03B6E9553116405EBA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MTG Playtester";
+			productName = "MTG Playtester";
+			productReference = 4CF11AB2202CA93100789AD5 /* MTG Playtester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CF11AAA202CA93100789AD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = dkehres;
+				TargetAttributes = {
+					4CF11AB1202CA93100789AD5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4CF11AAD202CA93100789AD5 /* Build configuration list for PBXProject "MTG Playtester" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CF11AA9202CA93100789AD5;
+			productRefGroup = 4CF11AB3202CA93100789AD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CF11AB1202CA93100789AD5 /* MTG Playtester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CF11AB0202CA93100789AD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF11AC0202CA93100789AD5 /* LaunchScreen.storyboard in Resources */,
+				4CF11ABD202CA93100789AD5 /* Assets.xcassets in Resources */,
+				C7714096206D2F3200376906 /* GoogleService-Info.plist in Resources */,
+				4CF11ABB202CA93100789AD5 /* Main.storyboard in Resources */,
+				4CAB5F0E20766FF300E8B951 /* Background-Temple of Mystery.png in Resources */,
+				C77877C42035E792003DA114 /* magic_M.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10873D03B6E9553116405EBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTG Playtester/Pods-MTG Playtester-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		131EA78485B7D77273A7CDA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MTG Playtester/Pods-MTG Playtester-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTG Playtester/Pods-MTG Playtester-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4439F459F57CA70B3A4D376A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTG Playtester-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CF11AAE202CA93100789AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7D7E41206155B00019DA78 /* Deck.swift in Sources */,
+				4CF11AB8202CA93100789AD5 /* ViewController.swift in Sources */,
+				4CF11ACA202CAC9900789AD5 /* PlaytesterViewController.swift in Sources */,
+				4C48ACF1204F0CDD00A055BE /* DeckBuilder.swift in Sources */,
+				4CF11AC8202CAA9100789AD5 /* ViewEditDecksViewController.swift in Sources */,
+				4C2652EE206A9743004BD396 /* CreateDeckViewController.swift in Sources */,
+				4CF11AB6202CA93100789AD5 /* AppDelegate.swift in Sources */,
+				4C9DF4572033380600BF8C21 /* DeckEditorViewController.swift in Sources */,
+				4CE1AA1320338844000AD1B3 /* PlayMatViewController.swift in Sources */,
+				C765278020476A2D000881BC /* LinkedList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CF11AB9202CA93100789AD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF11ABA202CA93100789AD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CF11ABE202CA93100789AD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF11ABF202CA93100789AD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CF11AC2202CA93100789AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CF11AC3202CA93100789AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CF11AC5202CA93100789AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49721B2EADB6BE3BB46AEC1A /* Pods-MTG Playtester.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z4YHDJVNF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "MTG Playtester/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.bradley.dkehres.MTG-Playtester";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CF11AC6202CA93100789AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767ACB32D49AFDC7A9FBD188 /* Pods-MTG Playtester.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z4YHDJVNF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "MTG Playtester/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.bradley.dkehres.MTG-Playtester";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CF11AAD202CA93100789AD5 /* Build configuration list for PBXProject "MTG Playtester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF11AC2202CA93100789AD5 /* Debug */,
+				4CF11AC3202CA93100789AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF11AC4202CA93100789AD5 /* Build configuration list for PBXNativeTarget "MTG Playtester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF11AC5202CA93100789AD5 /* Debug */,
+				4CF11AC6202CA93100789AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CF11AAA202CA93100789AD5 /* Project object */;
+}
