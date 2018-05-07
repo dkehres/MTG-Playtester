@@ -25,7 +25,7 @@ class CreateDeckViewController: UIViewController, UIPickerViewDelegate, UIPicker
     }
     
     @IBAction func createDeck(_ sender: Any) {
-        self.ref.child("Decks").childByAutoId().setValue(deckName.text)
+        self.ref.child("Decks").child(deckName.text!).setValue(deckName.text!)
     }
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {

@@ -47,24 +47,9 @@ class DeckEditorViewController: UIViewController {
         
         //Add card to Database
    
-        let deckName = "Test"
-        self.ref.child("Decks").observeSingleEvent(of: .value, with: { (snapshot) in
-            
-            //Loop through all children of Decks
-            for childSnap in snapshot.children.allObjects {
-                let snap = childSnap as! DataSnapshot
-                //Retrieve data as NSDictionary
-                if let snapshotValue = snapshot.value as? NSDictionary, let snapVal = snapshotValue[snap.key] as? NSString{
-                    //Check to see if we are working with the Deck the user wants to edit
-                    if(snapVal as String == deckName)
-                    {
-                        //Add card name under the appropriate deck on Firebase (Incomplete)
-                        self.ref.child("Decks").child(snapVal as String).child("Cards").childByAutoId().setValue(self.testDeck.deck?.first?.value.name!)
-                    }
-                }
-            }
-        })
-    self.ref.child("Decks").child("Cards").childByAutoId().setValue(testDeck.deck?.first?.value.name!)
+        let deckName = "Test Deck"
+        
+        self.ref.child("Cards").child(deckName).child(cardName.text!).setValue(cardName.text!)
     }
     
     

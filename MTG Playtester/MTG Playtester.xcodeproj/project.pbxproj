@@ -11,6 +11,7 @@
 		4C48ACF1204F0CDD00A055BE /* DeckBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C48ACF0204F0CDD00A055BE /* DeckBuilder.swift */; };
 		4C48ACF3204F0F3500A055BE /* MTGSDKSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C48ACEE204F0C2B00A055BE /* MTGSDKSwift.framework */; };
 		4C48ACF4204F0F3500A055BE /* MTGSDKSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C48ACEE204F0C2B00A055BE /* MTGSDKSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C65562E2088DCB30036D580 /* ViewDeckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65562D2088DCB30036D580 /* ViewDeckViewController.swift */; };
 		4C7D7E41206155B00019DA78 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7D7E40206155B00019DA78 /* Deck.swift */; };
 		4C9DF4572033380600BF8C21 /* DeckEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9DF4562033380600BF8C21 /* DeckEditorViewController.swift */; };
 		4CAB5F0E20766FF300E8B951 /* Background-Temple of Mystery.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAB5F0D20766FF200E8B951 /* Background-Temple of Mystery.png */; };
@@ -47,6 +48,7 @@
 		4C2652ED206A9743004BD396 /* CreateDeckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDeckViewController.swift; sourceTree = "<group>"; };
 		4C48ACEE204F0C2B00A055BE /* MTGSDKSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MTGSDKSwift.framework; path = Carthage/Build/iOS/MTGSDKSwift.framework; sourceTree = "<group>"; };
 		4C48ACF0204F0CDD00A055BE /* DeckBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckBuilder.swift; sourceTree = "<group>"; };
+		4C65562D2088DCB30036D580 /* ViewDeckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDeckViewController.swift; sourceTree = "<group>"; };
 		4C7D7E40206155B00019DA78 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		4C9DF4562033380600BF8C21 /* DeckEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckEditorViewController.swift; sourceTree = "<group>"; };
 		4CAB5F0D20766FF200E8B951 /* Background-Temple of Mystery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background-Temple of Mystery.png"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				4C48ACF0204F0CDD00A055BE /* DeckBuilder.swift */,
 				4C7D7E40206155B00019DA78 /* Deck.swift */,
 				4CF11AC1202CA93100789AD5 /* Info.plist */,
+				4C65562D2088DCB30036D580 /* ViewDeckViewController.swift */,
 			);
 			path = "MTG Playtester";
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				4C7D7E41206155B00019DA78 /* Deck.swift in Sources */,
 				4CF11AB8202CA93100789AD5 /* ViewController.swift in Sources */,
 				4CF11ACA202CAC9900789AD5 /* PlaytesterViewController.swift in Sources */,
+				4C65562E2088DCB30036D580 /* ViewDeckViewController.swift in Sources */,
 				4C48ACF1204F0CDD00A055BE /* DeckBuilder.swift in Sources */,
 				4CF11AC8202CAA9100789AD5 /* ViewEditDecksViewController.swift in Sources */,
 				4C2652EE206A9743004BD396 /* CreateDeckViewController.swift in Sources */,
